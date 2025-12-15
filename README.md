@@ -7,8 +7,6 @@ It includes end-to-end functionality: synthetic dataset generation, GAN training
 
 The system is built entirely in PyTorch, uses a U-Net Generator and a PatchGAN Discriminator with Spectral Normalization, and provides deep interpretability through latent space analysis and discriminator heatmaps.
 
----
-
 ## 🚀 Key Features
 
 ### 1️⃣ Synthetic Dataset Generation
@@ -17,8 +15,6 @@ The system is built entirely in PyTorch, uses a U-Net Generator and a PatchGAN D
 - Output: Colored and textured images
 - Train/test split handled automatically
 - No external datasets required
-
----
 
 ### 2️⃣ Pix2Pix GAN Architecture
 
@@ -35,8 +31,6 @@ The system is built entirely in PyTorch, uses a U-Net Generator and a PatchGAN D
 - Instance Normalization + LeakyReLU activations
 - Outputs realism scores for each image patch
 
----
-
 ### 3️⃣ Robust Training Pipeline
 - Adversarial loss (LSGAN / MSE-based)
 - L1 reconstruction loss with high weighting
@@ -44,8 +38,6 @@ The system is built entirely in PyTorch, uses a U-Net Generator and a PatchGAN D
 - Periodic checkpoint saving
 - Automatic sample generation during training
 - Designed to run on **CPU or GPU**
-
----
 
 ### 4️⃣ Advanced Visualization & Explainability
 - Comprehensive training dashboard including:
@@ -63,8 +55,6 @@ The system is built entirely in PyTorch, uses a U-Net Generator and a PatchGAN D
 - Automatic training quality scoring  
   *(Excellent / Good / Fair / Poor)*
 
----
-
 ### 5️⃣ Flexible Inference Modes
 - **Single image inference**
 - **Batch image inference**
@@ -75,8 +65,6 @@ The system is built entirely in PyTorch, uses a U-Net Generator and a PatchGAN D
   - Generated images
   - Full diagnostic visualization reports
   - Discriminator confidence metrics
-
----
 
 ## 🛠️ Tech Stack
 
